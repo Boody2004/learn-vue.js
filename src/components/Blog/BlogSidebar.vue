@@ -1,12 +1,9 @@
 <template>
-    <div class="sidebar-widgets">
-        Testing Sidebar
-    </div>
+  <div class="sidebar-widgets">Testing Sidebar</div>
 </template>
 
 <script>
-
 export default {
-    name:"Sidebar",
+  name: "Sidebar",
 };
 </script>
