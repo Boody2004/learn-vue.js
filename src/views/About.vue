@@ -6,23 +6,21 @@
 </template>
 
 <script>
-
 export default {
   name: "About",
   data: function () {
     return {
       pageName: "About us",
-      pageDescription: "This Is About Us Page"
-    }
-  }
-}
+      pageDescription: "This Is About Us Page",
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>
 p {
   font-size: 30px;
   font-weight: bold;
-  color: orange;
+  color: var(--orange-sherbet);
 }
 </style>
-

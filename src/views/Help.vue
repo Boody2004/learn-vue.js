@@ -21,6 +21,6 @@ export default {
 p {
   font-size: 30px;
   font-weight: bold;
-  color: orange;
+  color: var(--orange-sherbet);
 }
 </style>

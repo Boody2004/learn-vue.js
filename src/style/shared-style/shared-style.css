@@ -1,0 +1,20 @@
+:root {
+  --light: #fff;
+  --charcoal: #2d4654;
+  --dark: #24262b;
+  --orange-sherbet: orange;
+  --transition: all 0.3s ease;
+}
+span {
+  color: var(--orange-sherbet);
+}
+h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 2px;
+  width: 50px;
+  box-sizing: border-box;
+  background-color: var(--orange-sherbet);
+}
