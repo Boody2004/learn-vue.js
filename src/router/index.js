@@ -11,19 +11,29 @@ const routes = [
     component: Home,
   },
   {
+    path: "/html&css",
+    name: "Html&Css",
+    component: () => import("@/views/Html&Css.vue"),
+  },
+  {
+    path: "/js",
+    name: "Js",
+    component: () => import("@/views/Js.vue"),
+  },
+  {
+    path: "/vue",
+    name: "Vue",
+    component: () => import("@/views/Vue.vue"),
+  },
+  {
+    path: "/animaction&tools",
+    name: "Animaction&Tools",
+    component: () => import("@/views/Animaction&Tools.vue"),
+  },
+  {
     path: "/about",
     name: "About",
     component: () => import("@/views/About.vue"),
-  },
-  {
-    path: "/blog",
-    name: "Blog",
-    component: () => import("@/views/Blog.vue"),
-  },
-  {
-    path: "/help",
-    name: "Help",
-    component: () => import("@/views/Help.vue"),
   },
 ];
 

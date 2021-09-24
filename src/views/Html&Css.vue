@@ -12,8 +12,8 @@ export default {
   name: "About",
   data: function () {
     return {
-      pageName: "About us",
-      pageDescription: "This Is About Us Page",
+      pageName: "Html And Css",
+      pageDescription: "This Is Html And Css Us Page",
     };
   },
 };

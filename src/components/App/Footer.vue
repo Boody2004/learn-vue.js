@@ -5,10 +5,11 @@
         <div class="footer-col">
           <h4>Page's</h4>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/blog">Blog</a></li>
+            <li><a href="/html&css">html&css</a></li>
+            <li><a href="/js">Js</a></li>
+            <li><a href="/vue">Vue.js</a></li>
+            <li><a href="/animaction&tools">animaction And Tools</a></li>
             <li><a href="/about">About</a></li>
-            <li><a href="/help">Help</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -60,7 +61,7 @@ export default {
 section {
   background-color: var(--dark);
   padding: 70px 0;
-  margin-top: 8.9%;
+  margin-top: 100vh;
 }
 .row {
   display: flex;

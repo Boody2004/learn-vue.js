@@ -2,10 +2,11 @@
   <section>
     <a href="/" class="logo"> <i class="far fa-question-circle"></i> Logo </a>
     <nav class="navbar">
-      <a href="/">Home</a>
-      <a href="/blog">Blog</a>
+      <a href="/html&css">html&css</a>
+      <a href="/js">Js</a>
+      <a href="/vue">Vue.js</a>
+      <a href="/animaction&tools">animaction And Tools</a>
       <a href="/about">About</a>
-      <a href="/help">Help</a>
     </nav>
   </section>
 </template>

@@ -12,8 +12,8 @@ export default {
   name: "About",
   data: function () {
     return {
-      pageName: "About us",
-      pageDescription: "This Is About Us Page",
+      pageName: "Animaction Tools",
+      pageDescription: "This Is Animaction Tools Us Page",
     };
   },
 };

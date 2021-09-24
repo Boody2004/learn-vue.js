@@ -1,7 +1,10 @@
 <template>
-  <div class="our-blog">
-    <h1>{{ pageName }}</h1>
-    <p>{{ pageDescription }}</p>
+  <section>
+    <div class="text">
+      <h1>{{ pageName }}</h1>
+      <p>{{ pageDescription }}</p>
+    </div>
+
     <div class="container">
       <div class="row">
         <div class="col-md-8">
@@ -25,7 +28,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -36,8 +39,8 @@ export default {
   name: "Blog",
   data: function () {
     return {
-      pageName: "Blog",
-      pageDescription: "This Is Blog Us Page",
+      pageName: "Vue.js",
+      pageDescription: "This Is Vue.js Us Page",
       posts: JsonPosts,
     };
   },
@@ -48,7 +51,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 p {
   font-size: 30px;
   font-weight: bold;
