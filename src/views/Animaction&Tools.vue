@@ -26,6 +26,16 @@
             p="..."
           />
         </div>
+        <div class="col">
+          <Card
+            imageLinke="https://raw.githubusercontent.com/Boody2004/fullpage-animations-with-javascript/master/image2.jpg"
+            cardName="fullpage-animations-with-javascript"
+            title="Library: CDN and full page"
+            button="Explore"
+            buttonLinke="https://github.com/Boody2004/fullpage-animations-with-javascript"
+            p="..."
+          />
+        </div>
       </div>
     </div>
   </section>
