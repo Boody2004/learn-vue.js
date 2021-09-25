@@ -1,9 +1,11 @@
 <template>
-  <div class="sidebar-widgets">Testing Sidebar</div>
+  <div class="sidebar-widgets p">This project is education</div>
 </template>
 
-<script>
-export default {
-  name: "Sidebar",
-};
-</script>
+<style scoped>
+.p {
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--orange-sherbet);
+}
+</style>

@@ -5,10 +5,10 @@
         <div class="footer-col">
           <h4>Page's</h4>
           <ul>
-            <li><a href="/html&css">html&css</a></li>
+            <li><a href="/html&css">Html And Css</a></li>
             <li><a href="/js">Js</a></li>
             <li><a href="/vue">Vue.js</a></li>
-            <li><a href="/animaction&tools">animaction And Tools</a></li>
+            <li><a href="/animaction&tools">Animaction And Tools</a></li>
             <li><a href="/about">About</a></li>
           </ul>
         </div>

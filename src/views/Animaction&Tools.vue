@@ -1,15 +1,41 @@
 <template>
   <section>
-    <div class="text">
-      <h1>{{ pageName }}</h1>
-      <p>{{ pageDescription }}</p>
+    <div class="container">
+      <div class="text">
+        <h1>{{ pageName }}</h1>
+        <p>{{ pageDescription }}</p>
+      </div>
+      <div class="row">
+        <div class="col">
+          <Card
+            imageLinke="https://raw.githubusercontent.com/Boody2004/svg-darck-mode/master/dark-mode.jpg"
+            cardName="svg-darck-mode"
+            title="Tools: Figma"
+            button="Explore"
+            buttonLinke="https://github.com/Boody2004/svg-darck-mode"
+            p=" Dark mode and icon make in figma"
+          />
+        </div>
+        <div class="col">
+          <Card
+            imageLinke="https://raw.githubusercontent.com/Boody2004/gsap-animation/master/gsap-animation.jpg"
+            cardName="gsap-animation"
+            title="Library: CDN"
+            button="Explore"
+            buttonLinke="https://github.com/Boody2004/gsap-animation"
+            p="..."
+          />
+        </div>
+      </div>
     </div>
   </section>
 </template>
 
 <script>
+import Card from "@/components/Global/Card.vue";
 export default {
-  name: "About",
+  name: "Animaction&Tools",
+  components: { Card },
   data: function () {
     return {
       pageName: "Animaction Tools",

@@ -1,16 +1,15 @@
 <template>
-  <v-card class="mx-auto" max-width="344">
-    <v-img
-      src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
-      height="200px"
-    ></v-img>
+  <v-card class="mx-auto" max-width="400">
+    <v-img :src="imageLinke" height="200px"></v-img>
 
     <v-card-title> {{ cardName }} </v-card-title>
 
     <v-card-subtitle> {{ title }} </v-card-subtitle>
 
     <v-card-actions>
-      <v-btn color="#ffa500" text> {{ button }} </v-btn>
+      <v-btn color="#ffa500" text :href="buttonLinke" target="_blank">
+        {{ button }}
+      </v-btn>
 
       <v-spacer></v-spacer>
 
@@ -33,7 +32,7 @@
 
 <script>
 export default {
-  props: ["cardName", "title", "button", "p"],
+  props: ["imageLinke", "cardName", "title", "button", "p", "buttonLinke"],
   data: () => ({
     show: false,
   }),

@@ -1,8 +1,10 @@
 <template>
   <section>
-    <div class="text">
-      <h1>{{ pageName }}</h1>
-      <p>{{ pageDescription }}</p>
+    <div class="container">
+      <div class="text">
+        <h1>{{ pageName }}</h1>
+        <p>{{ pageDescription }}</p>
+      </div>
     </div>
   </section>
 </template>
