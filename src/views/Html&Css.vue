@@ -26,6 +26,15 @@
             p=" A simple form of HTML, CSS and but bootstrap5 "
           />
         </div>
+        <div class="col">
+          <Card
+            imageLinke="https://raw.githubusercontent.com/Boody2004/cards-grid/master/images/image-web.jpg"
+            cardName="cards-grid"
+            button="Explore"
+            buttonLinke="https://github.com/Boody2004/cards-grid"
+            p=" Grid with css "
+          />
+        </div>
       </div>
     </div>
   </section>
