@@ -50,6 +50,24 @@
           -Loop Control"
           />
         </div>
+        <div class="col">
+          <Card
+            imageLinke="https://raw.githubusercontent.com/Boody2004/scroll-to-top-js/master/image.jpg"
+            cardName="Scroll To Top JS"
+            button="Explore"
+            buttonLinke="https://github.com/Boody2004/scroll-to-top-js"
+            p="Scroll To Top With Buttom"
+          />
+        </div>
+        <div class="col">
+          <Card
+            imageLinke="https://raw.githubusercontent.com/Boody2004/random-background-color-js/master/image.jpg"
+            cardName="Random Background Color JS"
+            button="Explore"
+            buttonLinke="https://github.com/Boody2004/random-background-color-js"
+            p="Random Background Color"
+          />
+        </div>
       </div>
     </div>
   </section>

@@ -18,21 +18,21 @@
         </div>
         <div class="col">
           <Card
+            imageLinke="https://raw.githubusercontent.com/Boody2004/cards-grid/master/images/image-web.jpg"
+            cardName="cards-grid"
+            button="Explore"
+            buttonLinke="https://github.com/Boody2004/cards-grid"
+            p=" Grid with css "
+          />
+        </div>
+        <div class="col">
+          <Card
             imageLinke="https://raw.githubusercontent.com/Boody2004/first-project-bootstrap5/master/all-website.jpg"
             cardName="first-project-bootstrap5"
             title="Tools: bootstrap5 and jquery"
             button="Explore"
             buttonLinke="https://github.com/Boody2004/first-project-bootstrap5"
             p=" A simple form of HTML, CSS and but bootstrap5 "
-          />
-        </div>
-        <div class="col">
-          <Card
-            imageLinke="https://raw.githubusercontent.com/Boody2004/cards-grid/master/images/image-web.jpg"
-            cardName="cards-grid"
-            button="Explore"
-            buttonLinke="https://github.com/Boody2004/cards-grid"
-            p=" Grid with css "
           />
         </div>
       </div>

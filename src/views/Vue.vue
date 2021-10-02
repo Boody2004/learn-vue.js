@@ -21,9 +21,14 @@
             />
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 text-center">
           <div class="sideber">
             <BlogSidebar />
+            <div class="ten">
+              <a href="https://github.com/Boody2004/10-10" target="_blank"
+                >10-10</a
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -52,6 +57,37 @@ export default {
 </script>
 
 <style scoped>
+.ten {
+  margin-top: 15%;
+  text-align: center;
+  background: linear-gradient(
+    -45deg,
+    #ee7752,
+    #e73c7e,
+    #23a6d5,
+    #23d5ab,
+    #be1ed3
+  );
+  background-size: 300% 300%;
+  position: relative;
+  animation: change 5s ease infinite;
+}
+@keyframes change {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+a {
+  color: black;
+  font-size: 100px;
+  font-weight: bold;
+}
 p {
   font-size: 30px;
   font-weight: bold;
