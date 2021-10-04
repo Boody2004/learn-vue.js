@@ -1,11 +1,10 @@
 <template>
   <section>
-    <div class="container">
-      <div class="text">
-        <img alt="Vue logo" src="../assets/logo.png" />
-        <h1>{{ pageName }}</h1>
-        <p>{{ pageDescription }}</p>
-      </div>
+    <div class="text">
+      <img alt="Vue logo" src="../assets/logo.png" />
+      <h1>{{ pageName }}</h1>
+      <p>{{ pageDescription }}</p>
+      <div class="container"></div>
     </div>
   </section>
 </template>

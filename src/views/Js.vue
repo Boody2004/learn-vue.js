@@ -1,12 +1,12 @@
 <template>
   <section>
+    <div class="text">
+      <h1>{{ pageName }}</h1>
+      <p>{{ pageDescription }}</p>
+    </div>
     <div class="container">
-      <div class="text">
-        <h1>{{ pageName }}</h1>
-        <p>{{ pageDescription }}</p>
-      </div>
       <div class="row">
-        <div class="col">
+        <div class="col-lg-4">
           <Card
             imageLinke="https://www.siberdefter.com/wp-content/uploads/2020/04/javascript-egitimi.png"
             cardName="Learn JS"
@@ -50,7 +50,7 @@
           -Loop Control"
           />
         </div>
-        <div class="col">
+        <div class="col-lg-4">
           <Card
             imageLinke="https://raw.githubusercontent.com/Boody2004/scroll-to-top-js/master/image.jpg"
             cardName="Scroll To Top JS"
@@ -59,7 +59,7 @@
             p="Scroll To Top With Buttom"
           />
         </div>
-        <div class="col">
+        <div class="col-lg-4">
           <Card
             imageLinke="https://raw.githubusercontent.com/Boody2004/random-background-color-js/master/image.jpg"
             cardName="Random Background Color JS"
