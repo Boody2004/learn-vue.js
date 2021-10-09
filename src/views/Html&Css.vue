@@ -12,7 +12,7 @@
             cardName="leon-template-HTM-CSS-responsive"
             title="HTM AND CSS"
             button="Explore"
-            buttonLinke="https://github.com/Boody2004/leon-template-HTM-CSS-responsive"
+            buttonLinke="https://github.com/Boody2004/leon-template-one-responsive"
             p=" A simple form of HTML and CSS but Responsive and based on a grid"
           />
         </div>
@@ -34,6 +34,16 @@
             button="Explore"
             buttonLinke="https://github.com/Boody2004/first-project-bootstrap5"
             p=" A simple form of HTML, CSS and but bootstrap5 "
+          />
+        </div>
+        <div class="col-lg-4">
+          <Card
+            imageLinke="https://lh3.googleusercontent.com/Xqtg-KaxQ7I-Jhoc9U5GCDRtuYKikjUjQv8TuNdd32wf1mAe5w-_sH16-pfu3eo-ylW4FA=s85"
+            cardName="kasper-template-HTM-CSS-responsive"
+            title="HTM AND CSS"
+            button="Explore"
+            buttonLinke="https://github.com/Boody2004/kasper-template-two-responsive"
+            p="kasper-template-two-responsiv"
           />
         </div>
       </div>
